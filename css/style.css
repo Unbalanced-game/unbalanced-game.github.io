@@ -24,7 +24,7 @@ div.social 	{ display: inline-block; margin-left: 600px; margin-top:25px; height
 
 /* horizontales Navigationsmenü */
 #navi_rahmen { width: 100%; border-top: 10px solid #fff; border-bottom: 10px solid #fff; background: #00e4ff; }
-#navi_oben a:link, #navi_oben a:active, #navi_oben a:visited { display: block; width: 100; font: bold 16px/30px 'Trebuchet MS', Tahoma, Verdana; text-decoration: none; color: #fff; background: #0d88ff; text-align: center; border-left: 1px solid #fff; }
+#navi_oben a:link, #navi_oben a:active, #navi_oben a:visited { display: block; width: 115; font: bold 16px/30px 'Trebuchet MS', Tahoma, Verdana; text-decoration: none; color: #fff; background: #0d88ff; text-align: center; border-left: 1px solid #fff; }
 #navi_oben a:hover { text-decoration: none; color: #fff; background: #10c0e8; }
 
 /* Inhalt-Content */
