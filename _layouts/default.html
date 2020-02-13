@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+  </head>
+  <body>
+	<div id="logo">
+
+	  <div id="logo_in" style="display: inline-block;">
+		<img src="img/cover.jpg" height="300px">	
+	  </div>
+
+		<div style="position: absolute; z-index: 1; left: 440; top: 50; width: 360; height: 280; border: none;">
+			<img src="img/logo.png" style="height:150px;">
+			<p><br><b>UNBALANCED | {{ page.title }}</b>
+			<br>
+			Ein Spiel für die ganze Familie!<br>
+			Was wird Sie erwarten?
+		</div>
+	</div>
+	{% include navigation.html %}
+  
+    {{ content }}
+	
+	<div id="footer">
+	UNBALANCED | <a href="impressum.html" style="color:#ffffff">IMPRESSUM</a>
+	</div>
+  </body>
+</html>
