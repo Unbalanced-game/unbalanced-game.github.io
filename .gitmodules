@@ -1,3 +1,8 @@
 [submodule "construct"]
 	path = construct
-	url = https://github.com/Unbalanced-game/game_creator
+	url = https://github.com/Unbalanced-game/unbalanced-game_creator
+
+[submodule "game"]
+	path = img
+	url = https://github.com/Unbalanced-game/unbalanced-assets
+	branch = rendered
