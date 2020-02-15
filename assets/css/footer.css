@@ -1,0 +1,12 @@
+/* Fußzeile */
+#footer {
+	font: 12px/40px 'Trebuchet MS', Tahoma, Arial;
+	color: #fff; font-style: italic; 
+	text-align: center; letter-spacing: 3px; 
+	word-spacing: 7px; 
+	border-top: 10px solid #fff; 
+	border-bottom: 10px solid #fff; 
+	background: #0d88ff;
+	bottom: 0px;
+}
+

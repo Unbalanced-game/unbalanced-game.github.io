@@ -1,8 +1,8 @@
 - name: Karten
-  link: Karten.html
+  link: /karten
 - name: Generatoren
-  link: generators.html
+  link: /generator
 - name: Entwickler 
-  link: Entwickler.htm
+  link: /entwickler
 - name: Home
   link: /

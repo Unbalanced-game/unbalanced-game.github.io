@@ -5,21 +5,27 @@
     <title>{{ page.title }}</title>
 	 <link rel="stylesheet" href="/assets/css/styles.css">
 	 <link rel="stylesheet" href="/assets/css/nav.css">
-	<link rel="icon" type="image/png" href="favicon.png">
+	 <link rel="stylesheet" href="/assets/css/footer.css">
+	 <link rel="stylesheet" href="/assets/css/colors.css">
+	<link rel="icon" type="image/png" href="/favicon.png">
   </head>
   <body>
-  
-	{% include header.html %}
+    {% include header.html %}
 	{% include navigation.html %}	
 
 
-	<table id="abs" cellpadding="0" cellspacing="0">
+	<!--<table id="abs" cellpadding="0" cellspacing="0">
 		<tr>
-			<td id="inhalt" valign="top">
+			<td id="content" valign="top">
 				{{ content }}
 			</td>
 		</tr>
-	</table>
+	</table>-->
+	
+	<div id="content" valign="top">
+		{{ content }}
+	</div>
+	
 	
 	{% include footer.html %}
 	

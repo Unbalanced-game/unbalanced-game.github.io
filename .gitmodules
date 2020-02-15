@@ -1,7 +1,10 @@
 [submodule "construct"]
-	path = construct
+	path = generator/unbalanced-game_creator
 	url = https://github.com/Unbalanced-game/unbalanced-game_creator
 [submodule "unbalanced-assets"]
 	path = unbalanced-assets
 	url = https://github.com/Unbalanced-game/unbalanced-assets
 	branch = rendered
+[submodule "unbalanced-documentation"]
+	path = unbalanced-documentation
+	url = https://github.com/Unbalanced-game/unbalanced-documentation
